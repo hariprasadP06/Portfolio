@@ -1,0 +1,48 @@
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem ;
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #c9d1d9;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .role {
+    font-size: 1rem;
+    color: #8b949e;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .tag {
+    padding: 0.5rem 1rem;
+    background-color: #21262d;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
