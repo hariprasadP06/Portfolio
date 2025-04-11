@@ -30,3 +30,22 @@
     background-color: #2ea043;
   }
   
+
+  /* new one  */
+
+  .contact-form button {
+    padding: 10px;
+    background-color: #58a6ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #1f6feb;
+    transform: scale(1.05);
+  }
+  
